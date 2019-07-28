@@ -9,11 +9,10 @@
 - [ ] Production Deployment is scheduled just after CI run successfully
 - [ ] QA Environment per commit
 
-
 ## Project
+
 - [ ] Project Tech Roadmap
 - [ ] Project Product/Business Roadmap
-- [ ] 
 
 ## Developing Environment
 
@@ -31,13 +30,16 @@
 - [ ] Documentation to project architecture map
 - [ ] Linux based servers
 - [ ] Docker based services
-- [ ] Kubernetes Orchestrator
+- [ ] K8S Orchestrator
 - [ ] LoadBalancer - Ingress
 - [ ] One Api Gateway
 
-
 ## Http
+
 - [ ] Http2
 - [ ] Brotli Compression
   - [ ] Gzip if Brotli is not supported
-- [ ] 
+
+## Pipeline
+- [ ]  There are no errors in QA environment (Check in logs after running tests on QA)
+- [ ]  
