@@ -1,0 +1,3 @@
+- All service run locally
+- DB's (docker)
+-
