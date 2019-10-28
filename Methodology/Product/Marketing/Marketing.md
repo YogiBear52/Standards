@@ -4,8 +4,8 @@
 - Online course - Guide how to use
 - PDF guides for clients
 - Exposed Roadmap
-
   - Users are able to influence the roadmap
+- Business Card
 
 ### Marketing Via Personas
 
@@ -18,6 +18,13 @@ At the most basic level, developing personas allows you to create content and me
   - fewer emails per month or the increase of emails.
 - Remember to not be spammy (max 1-2 times a month)
 - Send offers, discounts, newsletter and other important information.
+
+KPI's:
+
+- Open rate
+- Bounce rate
+- Click through rate
+- New subscriber growth
 
 ### [Social Media Marketing](https://www.top10-websitehosting.co.uk/15-steps-to-social-media-marketing-success/)
 

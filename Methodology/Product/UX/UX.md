@@ -1,5 +1,9 @@
 # UX
 
+- Homepage has a clear message and represents your services and products in an interesting manner.
+- Reduce the number of choices you offer your visitors
+- [Apply the rule of thirds](https://www.crazyegg.com/blog/website-design-best-practices/)
+
 ### Navigation
 
 You may be thinking now, what is he doing, I know what a navigation is. I know you know. But still, I want to point out that navigation should have all the important links on your website.

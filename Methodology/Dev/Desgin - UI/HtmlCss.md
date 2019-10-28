@@ -1,0 +1,3 @@
+- Prefer SVG over jpg/png
+- Make sure your static images are adjusted to all resolutions (Mobile)
+  - Make the same copy of Image for each resolution.
