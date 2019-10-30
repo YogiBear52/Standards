@@ -41,7 +41,7 @@ KPIs provide a way to measure how well companies, business units, projects, or i
 - How many client will be using the feature?
 - What is the basic unit of measurement? Metric
   - Persons using the feature.
-  - Oraganizations using the feature.
+  - Organizations using the feature.
   - Client finishing a flow in the feature.
 - Is your objective specific?
 - Can you Measure progress towards that goal?
@@ -56,10 +56,15 @@ KPIs provide a way to measure how well companies, business units, projects, or i
     - The feature Succeeded more than we wanted, so we will in invest more resources in this area.
 - include a reasonable time frame
 - Review the KPI on a weekly or monthly basis
-  - Some kpis might indicates failure after years of usage.
+  - Some KPIs might indicates failure after long time(years maybe) of usage.
 - Connecting employees to your organization’s purpose
 - Use A/B testing for KPI measurement
   - Start with small scale, and if the KPI indicates a success, go on a larger scale.
+- Use KPIs to remove features.
+  - Unused features is a bad sign of
+    - Wrong client usage / changes of market
+    - Waste of time in maintaining the feature (Dev)
+- Mesaure by reacuring users for each feature
 
 ## Links
 

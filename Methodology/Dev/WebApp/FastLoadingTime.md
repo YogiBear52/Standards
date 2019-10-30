@@ -6,7 +6,7 @@ According to recent studies, 47% of visitors expect a website to load in less th
 - 61% of a website’s page weight on a desktop computer is images
   - Lower size and Quality of the image without the user to notice.
   - Compress Images
-- Cache Static information to reduce number of initialz requests
+- Cache Static information to reduce number of initialize requests
   - Local cache
   - Browser DB for complex
 - Enable Http Keep-Alive for connection pooling.
@@ -17,5 +17,6 @@ According to recent studies, 47% of visitors expect a website to load in less th
   - Static compression - High ratio
 - Highest version of Http
   - Http 2.0
-- Use Webpack
+- Use Webpack / Rollup
   - Optimize chunks so the app will not be fully downloaded in the beginning
+  - Spit you app code to modular components so webpack will split to better chucks.
