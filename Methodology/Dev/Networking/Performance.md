@@ -33,4 +33,7 @@ For example between Europe to Israel, avg latency is about 65 ms. between USA to
 ## Pagination
 
 - Some requests might carry large amount of payload
-- We should con
+- If the client of those API prefers to get the first byte as fast as possible rather than getting the whole result, it's not a good idea to return the whole data in the response payload.
+
+- When dealing with relatively static data, which can be easily ordered, it is easy to implement pagination mechanism with two parameters of limit=25&offset=50.
+- Now imagine Facebook feed, when data is constantly changing by the time pass, the next page can be totally different, not even a direct continue to the previous page. Working with Ids, times, gaps - Very complicated (?? Research)
