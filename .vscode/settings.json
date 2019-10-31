@@ -1,8 +1,14 @@
 {
     "cSpell.words": [
+        "Artifactory",
+        "Dockerhub",
         "KPIs",
         "Kanban",
+        "Minification",
         "Nginx",
+        "Nuget",
+        "Pypy",
+        "gitignore",
         "webapp",
         "whatsapp"
     ]

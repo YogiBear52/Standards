@@ -2,6 +2,8 @@
 
 We are using network requests more often because we want a dynamic website and thanks to the multi services architectures (MicroServices).
 
+Failures always happen!
+
 Failures happens within the wire, routers.
 Errors are sent from flaky APIs
 We must handle it, we must reduce the amount of errors returning to our users.
@@ -46,3 +48,4 @@ F -- > B --> B --> B
 
 - C# - Polly, RxNet
 - Typescript - RxJs
+- ApiGateway - Can execute retry policies

@@ -37,3 +37,12 @@ For example between Europe to Israel, avg latency is about 65 ms. between USA to
 
 - When dealing with relatively static data, which can be easily ordered, it is easy to implement pagination mechanism with two parameters of limit=25&offset=50.
 - Now imagine Facebook feed, when data is constantly changing by the time pass, the next page can be totally different, not even a direct continue to the previous page. Working with Ids, times, gaps - Very complicated (?? Research)
+
+## Bulk requests - Chunks
+
+Good Practice only in case of working with an API with bad performance
+
+- Splitting each request to multiple requests. Each inner request will get part of the data
+- Make sure that no data is missing between each chunks
+- Handle data duplication (Union)
+- Each inner request should have the same retry policy as for all requests

@@ -1,5 +1,8 @@
 # Hosting
 
+- SLA of hosting providers
+  - High SLA for production and Pre-Prod Environments
+  - Low SLA for development purposes, if we lack of money
 - Environment Variables
   - Logical environment of the app (Production,Testing, Demo..)
   - Credentials
@@ -7,7 +10,7 @@
   - Don't confuse Environment variables with config file.
     - Don't overuse environment variables
 
-## VM's
+## VM
 
 ### NodeJs
 

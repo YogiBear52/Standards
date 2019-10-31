@@ -79,6 +79,12 @@
   - Number of threads
   - Memory taken by server + Total memory usage on container/VM
 
+## Production Tests
+
+- E2E and Integration tests will run on your production environment.
+- They will produce logs as usual user, Make sure to log them as for a specific testing-user so you can identify them.
+- Log all the tests results that will lated be used for Production-Health monitoring
+
 ## Business Logs
 
 Hey lazy developer. Sometimes good KPI's logs(Business logs) are not so simple. Sometime they require to log a flow, a funnel and complicated scenarios. Treat it as a regular task, it may take you time to develop it.
