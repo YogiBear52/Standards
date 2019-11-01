@@ -61,7 +61,7 @@ Modify it to be relevant to your project specific requirements.
   - Unit Tests
   - Component Tests
   - Integration Tests
-  - GUI E2e Tests
+  - GUI E2E Tests
 - KPI
   - Is the KPI booming?
 - Code Design

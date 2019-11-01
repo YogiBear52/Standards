@@ -22,3 +22,11 @@
 - Register services dynamically
 - Can put a service in maintenance mode - stop receiving new requests and removes server from pool when no more requests are currently executing
   - Good for Deploying
+- Health Check
+  - Load Balancers sample your health check and give you a configurable rate for stop passing requests.
+    - Most of the time the default setting will be just fine.
+    - In case your App is closer to real-time, you may consider set it to stop send the servers request after less failure health checks.
+  - Don't just send a 200 OK, check the App general health.
+    - Check if dependencies are working.
+    - Storage, DB, External APIs ...
+    - Use the new Health Check response standard

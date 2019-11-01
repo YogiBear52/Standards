@@ -22,6 +22,7 @@ Cons:
 - Use moment.js instead of EcmaScript Date type - All over the code.
 - Use Async-Await operators and not .then.catch.finally functions when working with Promise
 - Try your best sticking to Typescript. For example, don't use 'function' which is of JavaScript, but allowed in a .ts file.
+- Const > let > var = Never use it.
 
 ### Strict configuration
 

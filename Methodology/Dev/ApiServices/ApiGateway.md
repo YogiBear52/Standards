@@ -11,7 +11,7 @@
 - No need of ApiGateway when you have minimal set of services - overhead.
 - ApiGateway will increase complexity of overall architecture and will be another point of failure
 
-## How ?
+## How
 
 - One ApiGateway per contract / system / product
 - In many cases, ApiGateway product is also a LoadBalancer. No need to manage two tools.

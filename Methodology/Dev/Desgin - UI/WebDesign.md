@@ -14,7 +14,6 @@
 - Quality pictures
   - Use pictures of human faces - `A human face elicits emotional responses, triggering an individual to feel something, be it empathy, happiness, excitement and the like.`
 - [Minimize Text. Sure, you’ve got a lot to say - find another way.](https://www.quicksprout.com/website-design-best-practices/)
--
 
 ## Tools
 
@@ -66,4 +65,4 @@ Refer to marketing
   - Especially with background
   - Make sure you can notice all details on page on remote screens.
 
-## Prepare to touch screen
+## Touch Screen
