@@ -23,7 +23,7 @@
 
 ## [Consistent Design](https://digitalcommunications.wp.st-andrews.ac.uk/2016/04/07/why-is-consistency-important-in-web-design/)
 
-### Why ?
+### Motivation
 
 Gives your users a more positive experience
 enables users to carry out tasks more quickly and efficiently

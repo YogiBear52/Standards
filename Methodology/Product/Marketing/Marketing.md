@@ -37,7 +37,7 @@ In simple, social media marketing is work that is done to get likes, shares, and
 
 ### [Client Reviews](https://www.impactbnd.com/blog/word-of-mouth-marketing-strategies-infographic)
 
-##### why?
+#### Motivation
 
 - 79% of the people trust testimonials and online reviews as much as personal recommendations.
 - 75% don't believe advertisment, but 92% believe brand recommendation from friends.
@@ -45,7 +45,7 @@ In simple, social media marketing is work that is done to get likes, shares, and
 - 63% of visitors are more likely to buy when a website has reviews/ratings
 - Reviews can produce an 18% increase in sales
 
-##### How?
+#### How?
 
 - Collect user reviews and publish them
   - If you control it, publish only the good ones.
@@ -64,15 +64,15 @@ In simple, social media marketing is work that is done to get likes, shares, and
 
 ### [Chat Integration](https://blog.hubspot.com/marketing/companies-using-live-chat)
 
-##### why?
+#### Motivation
 
 - This can really make an experience for a visitor more personal and more pleasing.
 
-##### What?
+#### What?
 
 - If there is something that the bot is not able to answer, a visitor can still contact you.
 
-##### How?
+#### How?
 
 - Response immediately.
   - Make Sure your support team can handle the traffic.

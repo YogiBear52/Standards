@@ -9,6 +9,7 @@
         "Nuget",
         "Pypy",
         "gitignore",
+        "subnet",
         "webapp",
         "whatsapp"
     ]

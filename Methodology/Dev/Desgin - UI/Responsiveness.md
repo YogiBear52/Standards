@@ -10,7 +10,7 @@
 - Window size
   - Half screen
 
-## Why?
+## Motivation
 
 - Google can measure it and promote Responsiveness-friendly websites.
 -

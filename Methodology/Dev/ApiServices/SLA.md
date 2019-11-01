@@ -9,7 +9,7 @@
     - performance-sensitive industries like finance and ecommerce
   - six nines (99.9999%) - downtime 31.56 seconds a year
   - \*\* most of the downtime is spent on recover/repair
-- Time to alert in advanced before a shutdown / maintenance
+- Time to alert in advance before a shutdown / maintenance
 
 ## Responsiveness
 

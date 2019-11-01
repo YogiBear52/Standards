@@ -22,6 +22,11 @@ Use default's React/Angular initializers structure
 - ThirdParty
   - Used for external libraries and packages. Try to avoid use other libraries which are not taken from an organized repo, but in case you must do, put it there, so everyone will know to treat it as an external library.
 
+### Configuration File
+
+- This file will provide the configuration values by the given Logical Environment on runtime
+- Will have nothing to do with compilation mode (Release/Debug)
+
 ## App Code
 
 - Organize your code by logical modules and not by types of files. (?? Say more about it)

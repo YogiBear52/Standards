@@ -1,6 +1,6 @@
 # ApiGateway
 
-## Why ?
+## Motivation
 
 - Helps client to access different services in a micro-services architecture
 - Used as a contract between the clients and us
@@ -25,6 +25,7 @@
 - (Controversial Best Practice) - Make the ApiGateway to retry polices
 - Simple Caching
 - Compression traffic
+- CORS handling (?? Research more)
 - TLS
   - The ApiGateway will hold the DNS certificate and encrypt and decrypt all traffic
   - Clients will contact it with SSL and it will pass a non encrypted traffic to it's services

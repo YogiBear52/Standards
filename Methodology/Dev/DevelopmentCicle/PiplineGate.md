@@ -167,6 +167,7 @@ In case all tests has passed successfully, which is a miracle, especially when t
   - Mark the Artifacts as Stable.
   - Automatically Merge code into master
   - Make a Git tag to this commit with the name of the new version
+- Run this step as a routine on your production on idle times. [More Details](Routines.md)
 
 ## Rollback if needed
 
