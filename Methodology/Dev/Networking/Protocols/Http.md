@@ -8,11 +8,12 @@ Old protocol.
     - Data compression of HTTP headers
     - HTTP/2 Server Push
     - Multiplexing multiple requests over a single TCP connection
+- Don't make raw HTML requests. Use one of the [conventions](Conventions/REST.md) REST/GraphQL
 
-## HTTPs
+## HTTPs (Secure Http)
 
-Frontend to Backend - Must
-Backend to Backend - Not a must, consider.
+- Frontend to Backend - Must
+- Backend to Backend - Not a must, consider.
 
 ### Motivation
 

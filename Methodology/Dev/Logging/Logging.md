@@ -2,8 +2,6 @@
 
 ## Logging Architecture
 
-- In most cases, using a service which is responsible for Logging is redundant.
-  - Make a library/dll and use it from all of your services.
 - Use a message broker/Queue/BUS tool to save the logs and process them.
   - Elastic and Kafka are just nice tools for visualizations.
   - Mongo is a nice place to store the Logs, thus in most cases, it doesn't worth the overhead maintainable and duplicated storage do save the logs both in ElasticSearch and Mongo
@@ -23,6 +21,8 @@
   - Categorize logs to Bushiness and Technical/Maintenance
 - Standardize your logs format for easy exploration.
 - Send Async Logs - Don't wait to the response. Maybe only in Development environment make the synchronous.
+- (?)In most cases, using a service which is responsible for Logging is redundant. Another point of failure.
+  - Make a library/dll and use it from all of your services.
 
 ## What do we want to log ?
 

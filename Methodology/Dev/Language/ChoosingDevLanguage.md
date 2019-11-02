@@ -1,14 +1,14 @@
 # Choosing the Right Programming Language
 
-## General considerations
+## General Considerations
 
 - External Community
 - Internal Organization Community
 - Learning Curve. Quick Start ?
-- Who behinds it (Microsoft/Apple/Google/ one Asian guy)
+- Who's behind it (Microsoft/Apple/Google/ one Asian guy)
 - Trend
 - Development Environment - IDE, Windows/Linux
-- Quality of the lang
+- Quality of the language
   - Strongly Typed
   - Readable
   - Is it stable? How old is the language?
@@ -26,13 +26,13 @@
 
 - Typescript - (EcmaScript)
   - Server, Client and Reach client
-  - Not CPU Bound, very IO bound
+  - Not CPU-Bound, very IO-Bound
   - One language. Reduce the Tech-Stack
   - Typescript is very popular, large community --> Support + External libraries
   - Lang Quality --> oop and strongly typed
     - Zero base libraries
   - Good ecosystem
-  - Microsoft takes it as a main project, very seriously
+  - Microsoft takes it seriously as a main project
 - Python
   - Data oriented, Machine learning, AI, Data Science, Networking community and libraries
   - Low Quality Lang
@@ -49,26 +49,25 @@
   - One of the oldest and most stable lang on the market
 - Go Lang
   - Will replace C++
-  - Very newbie Lang, supported by Google so there is a hype
+  - Very newbie lang, supported by Google so there is a hype
   - Don't use it for web development
 - Php
-
   - Don't even consider.
   - But if you do consider, please get out of this Repo, it's not for you kiddy
 
 ### Quality Marks
 
-Unfortunately the quality of the lang become less and less important, because new programmers are born into Javascript, lean so much shit and bad practices so they don't appreciate quality.
+Unfortunately the quality of the lang become less and less important, since new programmers are born into Javascript, lean so much shit and bad practices so they don't appreciate quality.
 
-Best: Haskell
-Not Bad: F#, Lua, Rust, Swift
-Mid: C#, Clojure, Typescript, Scala
-Bad: C, Java, Python
-Horrible: Php, css, bash
+- Best: Haskell
+- Not Bad: F#, Lua, Rust, Swift
+- Mid: C#, Clojure, Typescript, Scala
+- Bad: C, Java, Python
+- Horrible: Php, css, bash
 
 ## What Lang Should I learn?
 
 - OOP + Python + C + TS
 - Knowing the difference between langs.
 - Adopting the strong parts of each lang and Framework.
-- DO NOT EVER START LEARNING PROGRAMMING WITH PYTHON OR PURE JAVASCRIPT - you will have bad coding habits
+- DO NOT EVER START LEARNING PROGRAMMING WITH PYTHON OR PURE JAVASCRIPT - you will build bad coding habits

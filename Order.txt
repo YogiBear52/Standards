@@ -1,0 +1,35 @@
+- Language Choosing
+- Networking
+- EventDriver Architecture (Missing ??)
+- ApiServices ApiGateway LoadBalancer SLA Service Concurrency
+- C.R
+- ApiServices Hosting - Short
+- MicroServices - Short
+- External Apis
+- Architecture Documentation
+- Architecture HighAviliability
+- Testing (Missing ??)
+- Pipeline Versioning Routines InfraAsaCode Choas-Engineering
+- DataBases
+- Logging Monitoring
+- WebApp Component
+- WebApp FastLoading Time
+- WebApp Feature
+- Legacy Products
+- Local Environment
+- WebDesign
+- Project Documentation (Missing - On Notebook)
+- General Dev-Metrics
+- Methodology (Missing ?? Take Titles)
+- Technical  (Missing ??)
+- Coding Modularity Single-Responsbility Naming (Missing ??)
+- Inversion of Control - Dependency Injection
+
+- Metrics
+- BlackFriday
+- Caching
+
+
+- Pair Programming
+- Replicator
+- Gamification

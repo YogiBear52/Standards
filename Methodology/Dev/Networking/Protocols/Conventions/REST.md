@@ -47,8 +47,8 @@ User related errors. "The user has used the API in a wrong way".
   - Treat it as a holly URL and never change it.
   - Use versioning (api/v1/...
     - (Research more) - header vs url
-- Pagination in case returning a lot of data
+- Pagination usage:
   - /products?limit=25&offset=50
-  - Pagination is not easy to implement in complex data.
 - Errors - RFC 7807 - Problem Details
 - Documentation - OpenApi spec
+  - Expose it in your API
