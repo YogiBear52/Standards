@@ -1,6 +1,6 @@
 # Hosting
 
-- SLA of hosting providers
+- Choose SLA for hosting services
   - High SLA for production and Pre-Prod Environments
   - Low SLA for development purposes, if we lack of money
 - Environment Variables
@@ -20,4 +20,35 @@
   - Helps the service restart with zero downtime
   - Makes a better use of the logical threads in your VM - It creates multiple processes/instances of your service.
 
-## K\*S
+## Docker + K8S
+
+## Docker
+
+- OS
+- Installations
+- End to End Artifact (Infrastructure --> Code)
+
+### BP
+
+- MultiStage
+  (?? Research more (Docker and Kubernetes))
+
+## K8S
+
+- Service Discovery
+- LoadBalancer
+- ApiGateway
+- High availability
+- Zero DownTime Deployment + Rolling Updates + Rollback
+- Auto Scale
+
+## Linux Vs Windows
+
+VM OS can be whether Windows or Linux.
+
+- Linux, Dah.
+- Although Microsoft are trying really hard. Maybe soon finally Linux will have a competitor.
+
+### Linux Distributions
+
+(?? Research more)

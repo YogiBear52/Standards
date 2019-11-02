@@ -30,3 +30,4 @@
     - Check if dependencies are working.
     - Storage, DB, External APIs ...
     - Use the new Health Check response standard
+  - Liveness and Readiness

@@ -21,8 +21,9 @@ Put every External API in few scales
    - The provider's given support level
    - API flakiness
    - Do you curse the API and it's providers on a daily-basis?
-2. How crucial from 1-10 is this API for your application?
-3. Does it have a defined SLA?
+2. API Status - In-Development / Deprecated / Not Supported
+3. How crucial from 1-10 is this API for your application?
+4. Does it have a defined SLA?
    - Are you fine with this SLA?
    - Have you every checked the API can stand in your worst estimation of Performance and Load?
      - Expected SLA vs Actual SLA

@@ -2,14 +2,14 @@
 
 Http vs MSMQ vs WebSockets
 
-## OnDemand vs Event Based Communication
+## OnDemand vs Event Driven Communication
 
 There are two different types of requests
 
 - On Demand
   - Client is waiting for a response. As long as he keeps waiting, as the chances he will get pissed off.
-- Event based
-  - Something has happened in the world, nobody known when- thus nobody is waiting for it.
+- Event Driven
+  - Something has happened in the world, nobody known when - thus nobody is waiting for it.
   - This is an event, and it triggers a request to your services to notify you about it. The services get the data, process it and do whatever they want.
   - For these type of request we can use a Queue tool that will help us manage all the events more easily and safely.
   - These queue tool are using a different protocol, more efficient one than HTTP - MSMQ.
