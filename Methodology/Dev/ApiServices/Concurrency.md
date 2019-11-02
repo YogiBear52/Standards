@@ -2,14 +2,14 @@
 
 Working right with concurrency in our services is the KEY to a effective and fast service
 
-It's important to understand that most of our time in services is spend on IO.
+It's important to understand that most of the execution time within services is spent on IO.
 
-- Network IO is the the slowest action we can do.
+- Network IO is the the slowest action we can do. EVER.
 - Disk IO
 
-Therefore, we must make our service resources idle while waiting to an ongoing executing IO.
+Therefore, we must make our service resources(CPU) idle while waiting to an ongoing executing IO.
 
-Each programming language solves it differently
+Each programming language solves it differently:
 
 ## Javascript (Browser/NodeJs)
 
@@ -19,7 +19,7 @@ Single threaded, non-blocking-IO
 - By using only one thread, it doesn't need to manage context switch between threads
 - Will block your CPU-Bound blocks - it means no one can work while CPU works hard
 
-## C# .Net
+## C# .Net Core
 
 - MultiThreaded lang
 - A new thread is opened for each request

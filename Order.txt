@@ -1,6 +1,5 @@
 - Language Choosing
-- Networking
-- EventDriver Architecture (Missing ??)
+- Networking Resillient Protocols Performance Http REST
 - ApiServices ApiGateway LoadBalancer SLA Service Concurrency
 - C.R
 - ApiServices Hosting - Short
@@ -10,8 +9,9 @@
 - Architecture HighAviliability
 - Testing (Missing ??)
 - Pipeline Versioning Routines InfraAsaCode Choas-Engineering
-- DataBases
+- DataBases + EventDriver Architecture (Missing ??)
 - Logging Monitoring
+- Typescript
 - WebApp Component
 - WebApp FastLoading Time
 - WebApp Feature
