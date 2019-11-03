@@ -39,6 +39,10 @@ User related errors. "The user has used the API in a wrong way".
 - 401 Unauthorized, 403 Forbidden
 - 404 - Not Found
 
+### 500.x
+
+Internal Error. Probably bugs or unexpected ones.
+
 ## General BP
 
 - REST suppose to be stateless

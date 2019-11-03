@@ -14,7 +14,7 @@ Teams that are lacking trust are incapable of having unfiltered, passionate deba
 
 Without conflict, it is not easy for team members to commit and buy-in to decisions, resulting in an environment where ambiguity prevails. People will buy into something when their opinions are included in the decision-making process – for example through debate. Productive teams make joint and transparent decisions and are confident that they have the support of each team member. This is not as much about seeking consensus but making sure everyone is heard.
 
-### - Avoidance of Accountability
+### - Avoidance of Accountability(אַחְרָיוּתִיּוּת)
 
 When teams don’t commit, you can’t have accountability: “people aren’t going to hold each other accountable if they haven’t clearly bought into the plan”. In a well-functioning team, it’s the responsibility of each team member to hold one another accountable and accept it when others hold them accountable. Very often, the key to success is the measurement of progress: making clear what the team’s standards are, what needs to be done, by whom and by when.
 
