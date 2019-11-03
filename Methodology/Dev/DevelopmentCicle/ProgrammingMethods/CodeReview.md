@@ -4,7 +4,10 @@ One of the most important subjects!
 
 ## [Motivation](https://medium.com/palantir/code-review-best-practices-19e02780015f)
 
-- The main way to lean and new things in your team.
+- The main way to learn in the team.
+  - Coding skills
+  - Other parts of the system
+  - Knowing you team members closer
 - One of the main daily human interaction between your team members.
   - Build Trust
 - The obvious - Find bugs, bad design, code smells.
@@ -27,7 +30,7 @@ One of the most important subjects!
   - The only one to control the keyboard and mouse.
   - Sit in front of the screen.
 - As the code reviewer, **Deeply** understand the code.
-  - Think about how would you have solved the problem
+  - Think about how you would have solved the problem
   - This is the reason why some prefer a remote code review, so they could quietly understand the code without time pressure or some manipulation of the programmer.
 - Make sure all notes are written
   - Later, use them as a reference to make sure all notes have been fixed.

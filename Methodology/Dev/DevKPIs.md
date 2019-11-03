@@ -8,6 +8,7 @@
 - Commits sizes
   - Too big is not good!
 - Ratio of Commits with Test files
+- Code and Feature deletion
 
 ## Technologies
 

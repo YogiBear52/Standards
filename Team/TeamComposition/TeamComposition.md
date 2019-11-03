@@ -1,17 +1,8 @@
 # [Team Composition](https://en.wikipedia.org/wiki/Team_composition)
 
-## Roles
-
-- Team Leader
-- Developers
-- Product (+BI)
-- UX (+Designer)
-
-Clear and explicit role for each role.
-
 - (Controversial) Team size
   - 4.6 members
-  - When focus factor is low, 5-7
+  - When focus factor is low --> 5-7
   - Small team to boost a new idea? Deadline until it becomes a real team
 - (Controversial) Gender
   - It is advisable to have zero or at least two people of the same gender in a team.

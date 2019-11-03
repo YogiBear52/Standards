@@ -1,19 +1,30 @@
-- Language Choosing
+- Programming Languages
 - Networking Resillient Protocols Performance Http REST
 - ApiServices ApiGateway LoadBalancer SLA Service Concurrency
+- External Apis
+
+- Team TeamComposition SucessfullTeams(marks) Team Assment TeamLeader
+- Product Product Value-Oriented KPI Marketing Support
+
 - C.R
 - ApiServices Hosting - Short
-- MicroServices - Short
-- External Apis
-- Architecture Documentation
 - Architecture HighAviliability
-- Testing (Missing ??)
 - Pipeline Versioning Routines InfraAsaCode Choas-Engineering
-- DataBases + EventDriver Architecture (Missing ??)
+- General Dev-Metrics
+- DataBases + Event Driven Architecture (Missing ??)
 - Logging Monitoring
 - Typescript
 - WebApp Component
 - WebApp FastLoading Time
+- General Dev-Metrics
+- Metrics
+- Methodology (Missing ?? Take Titles) - WIP, KPI, Key Principles of Kanban, Retro
+
+- MicroServices - Short
+- Architecture Documentation
+- Testing (Missing ??)
+
+
 - WebApp Feature
 - Legacy Products
 - Local Environment

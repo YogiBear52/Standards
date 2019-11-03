@@ -7,8 +7,11 @@
 - Challenge your team members
   - Researches determines that being challenged at work, is what people are seeking the most at jobs. More than high salary and fancy working environment.
 - Trace their personal improvement, work and plan with them how to do so.
+  - Get them out of their comfort zone!
 - Don't avoid taking hard decisions. Be determined about that.
 - Don't Micro-Management your team members, it will message lack of trust and will prevent them evolve.
 - Give your team members the credit they deserve. Never Ever take it to yourself
 - Be transparent. Your team members are not stupid, the will feel when something in shadows.
 - Personal example
+
+## Time Splitting (? ניסוח)

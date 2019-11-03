@@ -2,11 +2,11 @@
 
 ## What is KPI?
 
-KPIs provide a way to measure how well companies, business units, projects, or individuals are performing in relation to their strategic goals and objectives.
+KPIs provide a way to measure how well companies, business units, projects, or individuals are performing relatively to their strategic goals and objectives.
 
 - General Business KPIs
 - Features KPIs
-- Tech KPIs - Error and bugs
+- Tech KPIs - Error and bugs [Dev Section](../../Metrics.md)
 
 ## General Business KPIs
 
@@ -38,26 +38,27 @@ KPIs provide a way to measure how well companies, business units, projects, or i
 - Why is the feature relevant?
   - Market relevance
 - Who are the clients?
-- How many client will be using the feature?
+- How many clients will be using the feature?
 - What is the basic unit of measurement? Metric
   - Persons using the feature.
   - Organizations using the feature.
   - Client finishing a flow in the feature.
 - Is your objective specific?
-- Can you Measure progress towards that goal?
+- Can you measure progress towards that goal?
 - What is the Time-frame for achieving this goal?
 
 ## BPs
 
 - Success and Failure direct indicator.
 - KPI should be composed of numbers, scores, trends - measurable
-  - Every KPI will be consider effective when we got a conclusion.
+  - Every KPI will be consider effective when we come to conclusions.
     - The feature Failed, so - we will remove it / change UX
     - The feature Succeeded more than we wanted, so we will in invest more resources in this area.
-- include a reasonable time frame
+- Include a reasonable time frame
 - Review the KPI on a weekly or monthly basis
   - Some KPIs might indicates failure after long time(years maybe) of usage.
 - Connecting employees to your organization’s purpose
+- Share all of the KPIs with all of the employees.
 - Use A/B testing for KPI measurement
   - Start with small scale, and if the KPI indicates a success, go on a larger scale.
 - Use KPIs to remove features.
