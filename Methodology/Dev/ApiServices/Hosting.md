@@ -2,11 +2,11 @@
 
 - Choose SLA for hosting services
   - High SLA for production and Pre-Prod Environments
-  - Low SLA for development purposes, if we lack of money
+  - Low SLA for development purposes in case of limit resources($$ dinero $$)
 - Environment Variables
   - Logical environment of the app (Production,Testing, Demo..)
   - Credentials
-    - Since you should not check in your credentials to the source control, you need to pass them to you server with environment variables.
+    - Since checking in your credentials to the source control is not advisable , you need to pass them to you server with environment variables.
   - Don't confuse Environment variables with config file.
     - Don't overuse environment variables
 
@@ -19,6 +19,7 @@
 - PM2/forever
   - Helps the service restart with zero downtime
   - Makes a better use of the logical threads in your VM - It creates multiple processes/instances of your service.
+    - How ?? LB? NAT?
 
 ## Docker + K8S
 

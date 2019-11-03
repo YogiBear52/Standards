@@ -34,7 +34,7 @@ Put every External API in few scales
      - Has something to lose (Refund)
      - It's their main business, very important for them
 
-This rank will help you evaluate how much effort on Monitoring and Testing you have to invest on this API.
+This rank will help you evaluate how much effort on Monitoring and Testing you have to put on this API.
 
 1. Hermetic tests to this API from 1-10
    - API tests, E2E, unit tests to your API access code..
@@ -42,4 +42,4 @@ This rank will help you evaluate how much effort on Monitoring and Testing you h
 3. For APIs with bad rank you should have a good rank in Testing and Monitoring.
 
 - Contract - If this API is so crucial, don't use it unless the contract is good (SLA+Support) for you app needs
-- In case of SLA violation, or bad performance trend, Monitor, extract a nice detailed report out of your monitors. Send it to their support, show them the bad trend or the SLA violation. Make them realize you are a serious customer.
+- In case of SLA violation, or bad performance trend, extract a nice detailed report out of your monitors. Send it to their support, show them the bad trend or the SLA violation. Make them realize you are a serious customer.
