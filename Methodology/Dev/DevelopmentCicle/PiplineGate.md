@@ -1,10 +1,10 @@
 # Development Pipeline
 
-Every project has to have an automated pipeline. It starts when we make a Pull-Request and ends if the tests of our projects failed or the when the it fully deployed to our Production env and everything works just fine.
+Every project must have an automated pipeline. It triggers on a Pull-Request and ends if the tests of our projects failed or when the it fully deployed to our Production env and everything works just fine.
 
 Its important to remember this pipeline is going to be our only way to ensure our product quality. Neglecting this pipeline will directly effect our production env quality.
 
-Automate everything needed for the Quality Assurance of the app. A Manual step which is not automated and not included in this pipeline is sentenced to die sooner or later, it's just not relevant any more to the modern development circle rhythm.
+Automate everything needed for the Quality Assurance of the app. _Manual steps_ which are not automated and not included in this pipeline, are _sentenced to die_ sooner or later, it's just not relevant any more to the modern development circle rhythm.
 
 This is a summary of how a pipeline should look like:
 
@@ -23,17 +23,17 @@ This is a summary of how a pipeline should look like:
 - Master branch
 - No Dev branch
 - Feature branches
-  - will be deleted when Feature is done
+- Will be deleted when Feature is done
 - Push directly to master is not allowed, only with Pull-Request(GitHub, Bitbucket)/Merge-Request(Gitlab)
-  - Before a merge request, make sure you have rebased(not merge) you changed on top of the master branch.
+  - Before a merge request, make sure you have rebased(not merge) you changes on top of the master branch.
   - Before a merge request, combine all of your commits to one commit.
-  - Keep them as small as possible. Large MergeRequest is a bad sign of a large task not splitter well to small independent parts.
+  - Keep them as small as possible. Large MergeRequest is a bad sign of a large task not divided well to small independent parts.
     - Commit often
 - Stop using GitBash. It doesn't make you more manly. GitKraken/SourceTree will save you tons of time.
 - Write good commit messages
   - for example "HotFix" - will be use for fast deploy
   - Generate a changelog from your git commit messages, it will make you and your team write understandable ones.
-- Make sure you .gitignore is covering all unnecessary files
+- Make .gitignore file is covering all unnecessary files
   - There are good .gitignore example for each project type.
 
 ## CI tool
@@ -46,13 +46,14 @@ The pipeline takes the whole repo code, with the new added code, and begin the p
 - Most of the CI tools are working in a master-slave architecture
   - The slave agent will run all your pipeline commands
   - Make sure to install all needed dependencies and the specific version you need (NodeJs, .Net Core SDK, Git client..)
+    - Add these dependencies to your source control
   - Most CI tools will let you run the agent on a container
     - Prefer this option, as with containers you easily build your agent container based on read-made containers
-    - You can even use a different containers for different steps.
+    - You can even use a different container for different steps.
 
 ## Static Code Analysis
 
-The first stage of the pipeline is to run all analysis we want on our code, which doesn't require to execute the code
+The first stage of the pipeline is to run all analysis we want on our code, which don't require code execution
 
 - Linter
   - Eslint (Tslint is dead)
@@ -66,8 +67,10 @@ The first stage of the pipeline is to run all analysis we want on our code, whic
   - Sonar
 - Security vulnerabilities
 
+BP:
+
 - Static Analysis must be super fast
-- You can ran it per each service in repo, out all together, it doesn't really matters
+- You can run it per service in repo, or all together, the fastest of them.
 
 ## Building the Artifact
 
@@ -83,29 +86,28 @@ The artifact will be saved in some repository, there, it will be managed like al
       - Compression
       - Source Maps
     - .Net on 'Release' mode
-      - Sign dll (Not must, only if releasing the dll tor public usage)
+      - Sign dll (only if releasing the dll for public usage)
     - Configuration file
-      - Artifacts are logical-configuration free. The are not related to any of your logical environment.
+      - Artifacts are logical-configuration free. They are not related to any of your logical environment.
         - Configuration environment will be selected on runtime, by reading it from your Hosting Environment Variables
       - Otherwise, you will have to build an artifact for each logical environment which is a waste of time and storage
       - To Conclude: Compilation step has nothing to do with configuration files
   - Optimize Artifact
     - npm pune will remove all dev dependencies
-    - Delete un wanted files and directories
+    - Delete unwanted files and directories
 - Build a Docker container: (Link to docker specific BP)
   - Make use of MultiStaging technic to speed up your container performance and shrink it's size
 - Versioning:
   - [Read Here](Versioning.md)
-- Publish and Store the Artifact to an organized Repo.
+- Publish and store the Artifacts to an organized Repo.
   - Repo just like Npm, Nuget, Pypy, Dockerhub, or just a custom Repo of your own.
-  - Artifactory is a nice tool.
   - If you have no Repo server, save it to File System, by it's version.
   - Tag the artifact as 'unstable', as it haven't fully tested yet, so it is not ready to run on production environment.
 - In case there are many services, build can be done concurrently for each step.
 
 ## Deployment
 
-This section will describe the best practices to how deploying an release-ready Artifact to our Hosting environment, no matter of the logical environment(Prod, QA, Demo...)
+This section will talk about the best practices of how deploying an release-ready Artifact to our Hosting environment, no matter of the logical environment(Prod, QA, Demo...)
 
 - Zero Downtime
   - Blue Green Algorithms
@@ -115,13 +117,13 @@ This section will describe the best practices to how deploying an release-ready 
   - You must asking why? We only changed code in one service, not in all of them.. It will be waste of time to deploy..
     - What are you afraid of in deploying all of the services?
       - Time? - Run all deployment concurrently
-      - Failure? - In good automation script and tools, there is not reason why a deployment will fail. Failure is good, so you can learn for other times, when you will really need that specific service to be deployed.
+      - Failure? - In good automation scripts and tools, there is not reason why a deployment will fail. Failure is good, so you can learn for other times, when you will really need that specific service to be deployed.
       - Down Time? - Please look above at "Zero Down-Time" section.
 
 ### Deploying to 'QA'
 
 - Deploy to QA environment
-- Make sure this environment is [Prod-Like]() LINK
+- Make sure this environment is [Prod-Like](../Architecture/ProdLikeEnv.md) LINK
 - Set the Environment Variable of the hosting OS to the right logical environment 'QA', so 'QA' configuration will be loaded at startup
 - Number of QA environments
   - Since we commit often, and trigger our pipeline a lot. In a project with many developers, this pipeline can become a bottleneck.
@@ -174,3 +176,9 @@ In case all tests has passed successfully, which is a miracle, especially when t
 In case Sanity tests has failed on Production environment it means things went wrong and we must rollback to the last previous version
 
 Rollback is not something we should afraid of, it's not a self-Failure! Adopt the culture of rollbacks!
+
+## General
+
+- Short as possible
+  - Concurrent pipelines
+  - Concurrent jobs
