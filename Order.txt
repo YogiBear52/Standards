@@ -7,6 +7,7 @@
 - Product Product Value-Oriented KPI Marketing Support
 
 - C.R
+- WebApp Component
 - ApiServices Hosting - Short
 - Architecture HighAviliability
 - Pipeline Versioning Routines InfraAsaCode Choas-Engineering
@@ -14,7 +15,6 @@
 - DataBases + Event Driven Architecture (Missing ??)
 - Logging Monitoring
 - Typescript
-- WebApp Component
 - WebApp FastLoading Time
 - General Dev-Metrics
 - Metrics
